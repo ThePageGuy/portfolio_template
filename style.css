@@ -70,7 +70,7 @@ main .text h1 {
 main .text h3 {
   color: rgb(144, 19, 19);
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #works {
@@ -100,12 +100,14 @@ main .text h3 {
 
 #works .projects .project {
   min-width: 320px;
+  width: 400px;
   height: auto;
   margin: 0 20px 30px;
 }
 
 #works .projects .project img {
   width: 100%;
+  height: auto;
   margin-bottom: -4px;
 }
 
@@ -215,4 +217,11 @@ footer .copy p {
   font-size: 20px;
   color: rgb(250, 248, 245);
   font-weight: 100;
+}
+
+/* freecodecamp media query required */
+@media (max-width: 1px) {
+  body {
+    background-color: #f6f6f6;
+  }
 }

@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="navbar">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#works">Work</a></li>
@@ -21,17 +21,31 @@
       </nav>
     </header>
     <main id="about">
-      <div class="text">
-        <h1>Hey I am Wilfredo Gomez Martinez</h1>
+      <section class="text" id="welcome-section">
+        <h1>Hey I am Wilfredo Gomez</h1>
         <h3>A Front-End Web Developer</h3>
-      </div>
+      </section>
     </main>
     <section id="works">
       <h2>These are some of my projects</h2>
-      <div class="projects">
+      <section class="projects" id="projects">
         <div class="project">
           <a href="#">
-            <img src="img/sam_img.webp" />
+            <img
+              src="https://www.dpreview.com/files/p/articles/9462076757/1723747.jpeg"
+            />
+            <h4 class="project-tile">
+              <span>&lt;</span>
+              Page
+              <span>/&gt;</span>
+            </h4>
+          </a>
+        </div>
+        <div class="project">
+          <a href="#">
+            <img
+              src="https://www.dpreview.com/files/p/articles/9462076757/1723747.jpeg"
+            />
             <h4>
               <span>&lt;</span>
               Page
@@ -41,7 +55,9 @@
         </div>
         <div class="project">
           <a href="#">
-            <img src="img/sam_img.webp" />
+            <img
+              src="https://www.dpreview.com/files/p/articles/9462076757/1723747.jpeg"
+            />
             <h4>
               <span>&lt;</span>
               Page
@@ -51,7 +67,9 @@
         </div>
         <div class="project">
           <a href="#">
-            <img src="img/sam_img.webp" />
+            <img
+              src="https://www.dpreview.com/files/p/articles/9462076757/1723747.jpeg"
+            />
             <h4>
               <span>&lt;</span>
               Page
@@ -61,7 +79,9 @@
         </div>
         <div class="project">
           <a href="#">
-            <img src="img/sam_img.webp" />
+            <img
+              src="https://www.dpreview.com/files/p/articles/9462076757/1723747.jpeg"
+            />
             <h4>
               <span>&lt;</span>
               Page
@@ -71,7 +91,9 @@
         </div>
         <div class="project">
           <a href="#">
-            <img src="img/sam_img.webp" />
+            <img
+              src="https://www.dpreview.com/files/p/articles/9462076757/1723747.jpeg"
+            />
             <h4>
               <span>&lt;</span>
               Page
@@ -79,17 +101,7 @@
             </h4>
           </a>
         </div>
-        <div class="project">
-          <a href="#">
-            <img src="img/sam_img.webp" />
-            <h4>
-              <span>&lt;</span>
-              Page
-              <span>/&gt;</span>
-            </h4>
-          </a>
-        </div>
-      </div>
+      </section>
       <button>
         <a href="#">Show all &gt;</a>
       </button>
@@ -99,7 +111,7 @@
         <h2>Let's work together...</h2>
         <div class="social">
           <div class="option">
-            <a href="#">
+            <a href="#" id="profile-link" target="_blank">
               <i class="fa-brands fa-github"></i>
               <p>GitHub</p>
             </a>
@@ -127,7 +139,7 @@
     </section>
     <footer>
       <div class="copy">
-        <p>&copy; Created by Wilfredo Gomez Martinez</p>
+        <p>&copy; Created by Wilfredo Gomez</p>
       </div>
     </footer>
   </body>
